@@ -8,8 +8,9 @@
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Developer tools", "Blockchain"],
+  "architectures": ["linux/amd64"],
   "links": {
-    "endpoint": "http://arbitrum-node.arbitrum-nitro.public.dappnode:8547",
+    "endpoint": "http://arbitrum-nitro.public.dappnode:8547",
     "homepage": "https://developer.offchainlabs.com/docs/Running_Nitro_Node"
   },
   "bugs": {
