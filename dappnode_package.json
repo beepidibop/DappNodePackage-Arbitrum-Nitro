@@ -1,6 +1,6 @@
 {
   "name": "arbitrum-nitro.public.dappnode.eth",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Arbitrum Nitro Node",
   "type": "service",
   "author": "0xAtum",
