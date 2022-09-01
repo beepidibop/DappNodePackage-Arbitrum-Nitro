@@ -1,0 +1,20 @@
+version: "3.5"
+services:
+  arbitrum-node:
+    build:
+      context: build
+      args:
+        UPSTREAM_VERSION: v2.0.1-c48b8be
+    ports:
+      - 8547/tcp
+      - 8548/tcp
+      - 9642/tcp
+    volumes:
+      - "data:/home/user/.arbitrum/mainnet"
+    environment:
+      ETH_RPC_URL: "http://geth.dappnode:8545"
+      EXTRA_OPTS: ""
+    image: "arbitrum-node.arbitrum-nitro.public.dappnode.eth:1.0.2"
+    restart: unless-stopped
+volumes:
+  data: {}

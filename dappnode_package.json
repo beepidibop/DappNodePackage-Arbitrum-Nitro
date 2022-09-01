@@ -1,0 +1,23 @@
+{
+  "name": "arbitrum-nitro.public.dappnode.eth",
+  "version": "1.0.2",
+  "description": "Arbitrum Nitro Node",
+  "type": "service",
+  "author": "0xAtum",
+  "upstreamVersion": "v2.0.1-c48b8be",
+  "upstreamRepo": "OffchainLabs/nitro",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "categories": ["Developer tools", "Blockchain"],
+  "links": {
+    "endpoint": "http://arbitrum-node.arbitrum-nitro.public.dappnode:8547",
+    "homepage": "https://developer.offchainlabs.com/docs/Running_Nitro_Node"
+  },
+  "bugs": {
+    "url": "https://github.com/0xAtum/DappNodePackage-Arbitrum-Nitro/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xAtum/DappNodePackage-Arbitrum-Nitro.git"
+  },
+  "license": "GPL-3.0"
+}
