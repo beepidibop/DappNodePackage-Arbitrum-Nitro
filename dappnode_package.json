@@ -1,10 +1,10 @@
 {
   "name": "arbitrum-nitro.public.dappnode.eth",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Arbitrum Nitro Node",
   "type": "service",
   "author": "0xAtum",
-  "upstreamVersion": "v2.0.1-c48b8be",
+  "upstreamVersion": "v2.0.3-9779dab",
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Developer tools", "Blockchain"],
