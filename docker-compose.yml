@@ -4,7 +4,7 @@ services:
     build:
       context: build
       args:
-        UPSTREAM_VERSION: v2.0.7-10b845c
+        UPSTREAM_VERSION: v2.0.8-5b9fe9c
     ports:
       - "8547"
       - "8548"
@@ -14,7 +14,7 @@ services:
     environment:
       ETH_RPC_URL: "http://geth.dappnode:8545"
       EXTRA_OPTS: "--http.api=net,web3,eth,debug"
-    image: "arbitrum-nitro.public.dappnode.eth:1.0.4"
+    image: "arbitrum-nitro.public.dappnode.eth:1.0.5"
     restart: unless-stopped
 volumes:
   data: {}
