@@ -3,8 +3,6 @@
 
 This repo allows you to run a Aribtrum full node on [DappNode](https://twitter.com/dappnode). I'll support this repo until DappNode's team decide to support it officially. 
 
-This repo allows you to run a Aribtrum full node on [DappNode](https://twitter.com/dappnode). I'll support this repo until DappNode's team decide to support it officially.
-
 ## Installation Prerequisites
 
 You'll need a L1 ETH node. No need to host it yourself, but if you do, you'll need a full Ethereum Mainnet Stack.
