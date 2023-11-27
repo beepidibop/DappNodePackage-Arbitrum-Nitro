@@ -13,7 +13,8 @@ ENTRYPOINT nitro --parent-chain.connection.url=$ETH_RPC_URL \
   --http.addr=0.0.0.0 \
   --http.corsdomain=* \
   --http.vhosts=* \
-  --ws.port=8548 \
+  --http.port=8545 \
+  --ws.port=8546 \
   --ws.origins=* \
   --ws.addr=0.0.0.0 \
   $EXTRA_OPTS

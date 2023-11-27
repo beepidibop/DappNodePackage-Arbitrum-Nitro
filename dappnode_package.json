@@ -9,6 +9,7 @@
     "Voss <voss@visnovalabs.io> (https://github.com/alexpeterson91)",
     "Beepidibop (https://github.com/beepidibop)"
   ],
+  "chain": "ethereum",
   "upstreamVersion": "v2.1.3-e815395",
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
@@ -19,17 +20,18 @@
       "name": "Arbitrum Nitro JSON RPC",
       "description": "JSON RPC endpoint for Arbitrum Nitro",
       "serviceName": "arbitrum-nitro.public.dappnode.eth",
-      "port": 8547
+      "port": 8545
     },
     {
       "name": "Arbitrum Nitro JSON RPC (WS)",
       "description": "JSON RPC WebSocket endpoint for Arbitrum Nitro",
       "serviceName": "arbitrum-nitro.public.dappnode.eth",
-      "port": 8548
+      "port": 8546
     }
   ],
   "links": {
-    "endpoint": "http://arbitrum-nitro.public.dappnode:8547",
+    "endpoint": "http://arbitrum-nitro.public.dappnode:8545",
+    "ws": "ws://arbitrum-nitro.public.dappnode:8546",
     "homepage": "https://developer.offchainlabs.com/docs/Running_Nitro_Node"
   },
   "bugs": {
