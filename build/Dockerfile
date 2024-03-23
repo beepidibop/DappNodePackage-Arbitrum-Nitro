@@ -9,6 +9,7 @@ RUN mkdir -p /home/user/.arbitrum \
 USER user
 
 ENTRYPOINT nitro --parent-chain.connection.url=$ETH_RPC_URL \
+  --parent-chain.blob-client.beacon-url=$BEACON_RPC_URL \
   --chain.id=42161 \
   --http.addr=0.0.0.0 \
   --http.corsdomain=* \
