@@ -5,17 +5,8 @@ FROM offchainlabs/nitro-node:${UPSTREAM_VERSION}
 USER root
 RUN mkdir -p /home/user/.arbitrum \
  && chown -R user /home/user/.arbitrum
+COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 
 USER user
 
-ENTRYPOINT nitro --parent-chain.connection.url=$ETH_RPC_URL \
-  --parent-chain.blob-client.beacon-url=$BEACON_RPC_URL \
-  --chain.id=42161 \
-  --http.addr=0.0.0.0 \
-  --http.corsdomain=* \
-  --http.vhosts=* \
-  --http.port=8545 \
-  --ws.port=8546 \
-  --ws.origins=* \
-  --ws.addr=0.0.0.0 \
-  $EXTRA_OPTS
+ENTRYPOINT [ "/usr/local/bin/entrypoint.sh" ]
