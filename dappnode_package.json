@@ -10,7 +10,7 @@
     "Beepidibop (https://github.com/beepidibop)"
   ],
   "chain": "ethereum",
-  "upstreamVersion": "v2.3.3-6a1c1a7",
+  "dockerTimeout": "15min",
   "upstreamRepo": "OffchainLabs/nitro",
   "upstreamArg": "UPSTREAM_VERSION",
   "categories": ["Developer tools", "Blockchain"],
