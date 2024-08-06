@@ -4,7 +4,7 @@ services:
     build:
       context: build
       args:
-        UPSTREAM_VERSION: v3.0.2-9efbc16
+        UPSTREAM_VERSION: v3.1.0-7d1d84c
     volumes:
       - "data:/home/user/.arbitrum"
     environment:
@@ -12,7 +12,7 @@ services:
       BEACON_RPC_URL: "http://beacon-chain.prysm.dappnode:3500"
       VALIDATION_WASM_ALLOWED_WASM_MODULE_ROOTS: "/home/user/nitro-legacy/machines,/home/user/target/machines"
       EXTRA_OPTS: "--http.api=net,web3,eth,debug"
-    image: "arbitrum-nitro.public.dappnode.eth:1.0.14"
+    image: "arbitrum-nitro.public.dappnode.eth:1.0.15"
     restart: unless-stopped
 volumes:
   data: {}
